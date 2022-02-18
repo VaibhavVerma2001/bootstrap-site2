@@ -1,0 +1,306 @@
+body{
+  text-align: center;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #13cbf0; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #008ed6; 
+}
+
+
+.nav-logo{
+  height: 5%;
+  width: 5%;
+}
+
+#navbar-section  a{
+  font-size: 1.2rem;
+}
+
+.navbar-light{
+  opacity: 0.7;
+  border-bottom: 2px solid #008ed6 ;
+  box-shadow: 0px 1px 7px 4px rgba(115,201,207,0.75);
+-webkit-box-shadow: 0px 1px 7px 4px rgba(115,201,207,0.75);
+-moz-box-shadow: 0px 1px 7px 4px rgba(115,201,207,0.75);
+}
+
+/* showcase-section */
+#showcase-head{
+  /* for blur effect */
+  background: linear-gradient(rgba(102, 216, 231, 0.7), rgba(102, 216, 231, 0.7)), url('../img/mountains.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 6% 10% 0%;
+  background-attachment: fixed;
+  min-height: 600px;
+  background-position: center;
+}
+
+.showcase-img{
+  width: 100%;
+}
+
+#showcase-head h1 {
+  font-size: 4rem;
+  margin-top: 25%;
+  line-height: 1.5;
+}
+
+#showcase-head p {
+  font-size: 1.8rem;
+}
+
+.btn-outline-secondary{
+  color: #fff !important;
+}
+
+
+#showcase-bottom{
+  background-color: #343a40;
+  padding: 3% 10%;
+}
+
+#showcase-bottom .btn-primary{
+  background-color:#3292a6 !important ;
+  border-color: rgb(53, 147, 194);
+  width: 100%;
+  padding: 2.5% 0 !important;
+}
+
+#showcase-bottom .form-control{
+  padding: 2.5% 3% !important;
+}
+
+/* card-section */
+#card-section{
+  padding: 4% 8%;
+}
+
+#card-section .card{
+  padding: 5% 3%;
+}
+
+.card-blue{
+  background-color:#3292a6;
+  color: #fff;
+}
+
+
+.card-white{
+  color: #6c757d;
+  border: 1px solid #3292a6;
+}
+
+
+/* accordion-head-section */
+#accordion-head-section{
+  background-color: #f7f7f7;
+  padding: 3% 10%;
+}
+
+#accordion-head-section h1{
+  color: #3292a6;
+  font-size: 3rem;
+}
+
+#accordion-head-section p{
+  color: #6c757d;
+  font-size: 1.2rem;
+  padding: 0 20%;
+  margin-bottom: 3%;
+}
+
+hr{
+  margin: 0 auto;
+  width: 50%;
+}
+
+/* accordion-bottom-section */
+#accordion-bottom-section{
+  background-color: #f7f7f7;
+  padding: 0% 10% 3%; 
+}
+
+.accordion-item{
+  background-color: #f7f7f7;
+  
+}
+
+.accordion-button{
+  background-color: #f7f7f7;
+  text-align: center;
+  margin-bottom: 2px;
+  box-shadow: 2px 1px 6px 1px rgba(82,199,199,0.75);
+-webkit-box-shadow: 2px 1px 6px 1px rgba(82,199,199,0.75);
+-moz-box-shadow: 2px 1px 6px 1px rgba(82,199,199,0.75);
+}
+
+
+.accordion-body{
+  background-color: #fff;
+}
+
+/* author-section */
+#author-section{
+  padding: 4% 10%;
+}
+
+#author-section h1{
+  color: #3292a6;
+}
+
+.para{
+  padding: 2% 25%;
+  color: #6c757d;
+}
+
+#author-section .card{
+  margin: 20% 0 0;
+}
+
+#author-section .card:hover{
+  background-color: #3292a6;
+  color: #fff;
+}
+
+#author-section .card-img-top{
+  width: 40%;
+  border-radius: 100%;
+  margin: -13% auto 0;
+}
+
+#author-section .fab{
+  color: #fff;
+  margin: 2% 10% 5% 3%;
+}
+
+#author-section .card-subtitle{
+  color: #6c757d;
+  margin: 2% 0;
+  font-size: 1.4rem;
+}
+#author-section .card-title{
+  margin: 1% 0;
+  font-size: 1.8rem;
+}
+
+/* get-in-touch */
+#get-in-touch{
+  background-color: #f7f7f7;
+  text-align: left;
+  padding: 3% 10%;
+}
+
+#get-in-touch img{
+  width: 100%;
+  margin: 30% 0 4% 2%;
+}
+
+#get-in-touch .btn{
+  border-color: #3292a6;
+  background-color: #3292a6;
+  width: 100%;
+}
+#get-in-touch .btn:hover{
+  border-color: #2cb7d3;
+  background-color: #2cb7d3;
+  width: 100%;
+}
+
+/* footer */
+#footer{
+  background-color: #3292a6;
+  padding: 3% 20%;
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+
+
+
+/* media query */
+
+@media (max-width:768px) {
+  #showcase-head{
+    padding: 0;
+  }
+  #showcase-head h1 {
+    font-size: 3.7rem;
+    margin-top: 30%;
+    line-height: 1.3;
+  }
+  #showcase-bottom{
+    padding: 10% 1%;
+  }
+  #showcase-bottom .form-control{
+    margin: 0 0 5% 0;
+  }
+  #card-section{
+    padding: 0;
+    margin: 4% 0 5%;
+  }
+  #card-section .card{
+    padding: 2% 2%;
+    margin: 4% 0 0;
+  }
+  #card-section .container-fluid{
+    padding-right: 0;
+  }
+  #accordion-head-section{
+    padding: 3% 2%;
+  }
+  #accordion-head-section p{
+    padding: 0 8%;
+    margin-bottom: 10%;
+  }
+  #accordion-bottom-section{
+    padding: 5% 3% 6%; 
+  }
+  #author-section{
+    padding: 5% 2% 8%;
+  }
+  #author-section hr{
+    margin-bottom: 12%;
+  }
+  .para{
+    padding: 2% 10%;
+    margin-bottom: 10%;
+  }
+  #author-section .card{
+    margin: 6% 0 0;
+  }
+  #get-in-touch{
+    padding: 3% 0% 3% 2%;
+  }
+  #get-in-touch .container-fluid{
+    padding-right: 1%;
+  }
+  #get-in-touch img{
+    width: 100%;
+    margin: 2% 0;
+  }
+  #footer{
+    text-align: center;
+  }
+}
